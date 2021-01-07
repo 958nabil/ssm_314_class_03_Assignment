@@ -1,0 +1,407 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{}
+
+.container{
+    width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+img{
+    max-width: 100%;
+}
+
+
+/* Header-Section-CSS */
+
+.header-section{
+    padding: 15px;
+    background: #81ecec;
+}
+
+.header-logo{
+    float: left;
+    width: 20%;
+}
+
+strong {
+	font-size: 60px;
+}
+
+.header-menu{
+    float: right;
+    width: 80%;
+}
+.header-menu ul{
+    text-align: right;
+}
+.header-menu ul li{
+    list-style: none;
+    display: inline-block;
+}
+.header-menu ul li a {
+	text-decoration: none;
+	display: inline-block;
+	padding: 0 20px;
+	font-size: 20px;
+	color: #000;
+    line-height: 60px;
+    transition: .4s;
+}
+.header-menu ul li a:hover{
+    color: rgb(21, 5, 255);
+}
+
+/* Banner-Section-CSS */
+
+.banner-section{
+    padding: 80px 0;
+    background: #fafafa;
+}
+.col-1-2{
+    float: left;
+    width: 50%;
+    padding: 40px;
+}
+
+.content{}
+
+.content-img img{
+	transition: .4s;
+	cursor: pointer;
+}
+
+
+
+h1 {
+	font-size: 40px;
+	font-family: Arial;
+	line-height: 50px;
+	margin-bottom: 15px;
+	color: #2c2d2d;
+}
+h2 {
+	font-size: 30px;
+	font-family: Arial;
+	margin-bottom: 15px;
+}
+h3 {
+	font-size: 28px;
+	font-family: Arial;
+	margin-bottom: 15px;
+	line-height: 35px;
+	margin-top: 30px;
+}
+p {
+	font-size: 18px;
+	line-height: 25px;
+}
+a{}
+span{
+    display: inline-block;
+    font-size: 20px;
+    font-family: Arial;
+    color: #686363;
+}
+
+.button{
+	text-decoration: none;
+	display: inline-block;
+	color: #237be5 !important;
+	font-size: 20px;
+	padding: 8px 20px;
+	border-radius: 5px;
+    margin: 20px 0;
+    transition: .4s;
+    margin-left: 5px;
+}
+.button:hover{
+    color: #fff !important;
+    background: #237be5 !important;
+}
+.button-fill {
+	background: #237be5;
+    color: #fff !important;
+    margin-right: 5px;
+}
+.button-fill:hover{
+    color: #237be5 !important;
+    background: none !important;
+}
+
+/* Partner-Section-CSS */
+
+.partner-section{
+    background: #f1f4fb;
+    padding: 40px 0;
+}
+
+.partner{
+    text-align: center;
+}
+.partner ul{
+
+}
+.partner ul li {
+	display: inline-block;
+	list-style: none;
+	padding: 15px 25px;
+}
+.partner ul li img{}
+
+/* Problem-section-CSS */
+
+.problem-section{
+    padding: 80px 0;
+}
+.problem-content{
+    text-align: center;
+}
+
+.problem-content p {
+	font-size: 18px;
+	line-height: 25px;
+	width: 520px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+/* Problem-Fix-Section-CSS */
+
+.problem-fix-section{
+    padding: 80px 0;
+    background: #fafafa;
+}
+
+.problem-content img {
+	width: 350px;
+	margin-bottom: 40px;
+}
+
+/* Result-Section-CSS */
+
+.result-section{
+    padding: 80px 0;
+}
+
+.result-section h2 {
+	text-align: center;
+	font-size: 45px;
+	font-family: Arial;
+}
+
+.result-content{}
+
+
+.result-percent {
+	float: left;
+	width: 50%;
+	margin-top: 20px;
+}
+
+.result-content .span {
+	font-size: 28px;
+	font-family: Arial;
+	color: #000000;
+	background: #cbeafe;
+	padding: 0 10px;
+}
+
+.result-percent span{
+    color: #000;
+    font-size: 24px;
+}
+.result-percent h5 {
+	margin-top: 10px;
+	font-size: 18px;
+	color: #686464;
+	font-family: Arial;
+	font-weight: 500;
+}
+
+.result-img{
+    text-align: center;
+}
+.result-img {
+	text-align: center;
+	box-shadow: 0px 0px 15px #b0abab;
+	padding: 40px;
+	transition: .4s;
+	cursor: pointer;
+}
+
+.result-img:hover{
+	transform: rotate(10deg);
+}
+.result-percent h5 {
+	margin-top: 10px;
+	font-size: 18px;
+	color: #686464;
+	font-family: Arial;
+	font-weight: 500;
+}
+.result-img p {
+	font-size: 20px;
+	margin-top: 15px;
+	line-height: 28px;
+}
+.result-img h4 {
+	font-size: 18px;
+	font-family: Arial;
+	line-height: 28px;
+	margin-top: 20px;
+	color: #312f2f;
+}
+
+/* Product-Section-CSS */
+
+.product-section{
+    padding: 80px 0;
+    background: #fafafa;
+    text-align: center;
+}
+.product-section h2 {
+	font-size: 45px;
+	font-family: Arial;
+	margin-bottom: 15px !important;
+	width: 900px;
+	margin: auto;
+}
+
+.col-1-3 {
+	width: 33.33%;
+	float: left;
+	padding: 20px;
+	margin-bottom: 20px;
+	margin-top: 30px;
+}
+
+.product-img{
+	text-align: center;
+	transition: .4s;
+}
+.product-img img{
+	transition: .4s;
+	cursor: pointer;
+}
+.product-img h5{
+    margin-top: 10px;
+	font-size: 18px;
+	color: #070707;
+	font-family: Arial;
+	font-weight: 500;
+}
+
+/* Testimonials-section-CSS */
+
+.testimonials-section{
+    padding: 80px 0;
+    background: #237be5;
+}
+
+.testimonials-section h1 {
+	font-size: 40px;
+	font-family: Arial;
+	line-height: 50px;
+	margin-bottom: 15px;
+	color: #fff;
+}
+
+.testimonials-section span {
+	display: inline-block;
+	font-size: 20px;
+	font-family: Arial;
+	color: #e8e0e0;
+}
+
+.testimonials-section p {
+	font-size: 18px;
+	line-height: 25px;
+	color: #fff;
+}
+
+.testimonials-section .button {
+	text-decoration: none;
+	display: inline-block;
+	color: #fff !important;
+	font-size: 20px;
+	padding: 8px 20px;
+	border-radius: 5px;
+	margin: 20px 0;
+	transition: .4s;
+	margin-left: 5px;
+}
+
+.testimonials-section .button:hover{
+    background: #fff !important;
+    color: #237be5 !important;
+}
+
+.testimonials-section .button-fill {
+	background: #ffff;
+	color: #237be5 !important;
+	margin-right: 5px;
+}
+
+.testimonials-section .button-fill:hover{
+    color: #fff !important;
+    background: #237be5 !important;
+}
+
+/* Video-section-CSS */
+
+.video-section{
+    padding: 80px 0;
+}
+
+/* Footer-section-CSS */
+
+.footer-section{
+    padding: 30px 0;
+    background: #f1f4fb;
+}
+
+.footer-content{
+    text-align: center;
+}
+.footer-content img{}
+.footer-content ul{}
+.footer-content ul li{
+    list-style: none;
+    display: inline-block;
+}
+.footer-content ul li a{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    padding: 0 15px;
+    color: #000;
+	margin-top: 15px;
+	transition: .4s;
+}
+.footer-content ul li a:hover{
+	color: #237be5;
+}
+
+.img1:hover{
+	transform: translate(10px, 10px);
+}
+
+.img2:hover{
+	transform: scale(1.1);
+}
+
+.img3:hover{
+	transform: translate(-10px, -10px);
+}
+
+.img4:hover{
+	transform: scale(1.1);
+
+}
+
