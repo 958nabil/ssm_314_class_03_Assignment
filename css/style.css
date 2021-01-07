@@ -19,9 +19,9 @@ img{
 
 /* Header-Section-CSS */
 
-.header-section{
-    padding: 15px;
-    background: #81ecec;
+.header-section {
+	padding: 15px;
+	background: #237be5a3;
 }
 
 .header-logo{
@@ -31,6 +31,7 @@ img{
 
 strong {
 	font-size: 60px;
+	color: #fff;
 }
 
 .header-menu{
@@ -49,12 +50,12 @@ strong {
 	display: inline-block;
 	padding: 0 20px;
 	font-size: 20px;
-	color: #000;
-    line-height: 60px;
-    transition: .4s;
+	color: #fff;
+	line-height: 60px;
+	transition: .4s;
 }
 .header-menu ul li a:hover{
-    color: rgb(21, 5, 255);
+    color: #000;
 }
 
 /* Banner-Section-CSS */
